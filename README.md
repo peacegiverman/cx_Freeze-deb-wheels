@@ -6,6 +6,7 @@ cx_Freeze 5 creates broken binaries on Debian-based distros. If you build a bina
     Aborted (core dumped)
 
 I have submitted a patch for this issue upstream and will provide a couple of patched wheels until they land in PyPI. To install the wheels just run:
+
     pip install /path/to/cx_Freeze-5.0.1-<YOUR-VERSION>-linux_x86_64.whl
 
 ## Patching cx_Freeze ##
